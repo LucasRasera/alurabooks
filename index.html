@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
 
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
-                <span class="cabeçalho__menu-hamburger container__imagem"></span>
+                <span class="cabeçalho__menu-hamburger container__imagem transparente-tablet"></span>
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__titulo">Categorias</li>
@@ -41,10 +42,44 @@
                     <a href="#" class="lista-menu__link">Design & UX</a>
                 </li>
             </ul>
-            <img src="/Assets/logos/Logo.svg" alt="Logo da AluraBooks" class="container_imagem">     
+            <img src="/Assets/logos/Logo.svg" alt="Logo da AluraBooks" class="container_imagem">
+            
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="menu__opcoes" class="opcoes__menu transparente-tablet">
+            <label for="menu__opcoes">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            
+            <ul class="lista-menu transparente-tablet">                               <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__item__link">Favoritos</a>
+            </li>
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__item__link">Favoritos</a>
+            </li>
+        </ul>
+
         <div class="container">
-            <a href="#"><img src="/Assets/logos/Favoritos.svg" alt="Meus Favoritos" class="container_imagem"></a>
+            <a href="#"><img src="/Assets/logos/Favoritos.svg" alt="Meus Favoritos" class="container_imagem transparente-tablet"></a>
             <a href="#"><img src="/Assets/logos/Sacola.svg" alt="Sacola de compras" class="container_imagem"></a>
             <a href="#"><img src="/Assets/logos/Usuario.svg" alt="Meu perfil" class="container_imagem"></a>
         </div>
