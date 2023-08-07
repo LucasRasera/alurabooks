@@ -74,6 +74,10 @@
 .opcoes{
     display: none;
 }
+.container__texto {
+
+    display: none;
+}
 
 
 
@@ -116,5 +120,32 @@
         width: auto;
     }
     
+
+}
+
+@media screen and (min-width: 1728px){
+
+    .container__link {
+
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .container__texto{
+        display: block;
+    }
+
+    .cabeçalho {
+
+        padding: 0 2em;
+    }
+    .container_imagem {
+        margin-right: 0.5em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
 
 }
