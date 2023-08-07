@@ -53,7 +53,7 @@
                 <li class="opcoes__item">Categorias</li>
             </label>
             
-            <ul class="lista-menu transparente-tablet">                               <li class="lista-menu__item">
+            <ul class="lista-menu__opcoes transparente-tablet">                               <li class="lista-menu__item">
                     <a href="#" class="lista-menu__link">Programação</a>
                 </li>
                 <li class="lista-menu__item">
@@ -91,6 +91,7 @@
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
 
+    <!-- Corrossel da seção novos lanceçamentos-->
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
 
@@ -106,15 +107,14 @@
                 <div class="swiper-slide"><img src="./Assets/imagens/Javascript.svg" alt="Capa do Livro Javascript da AluraBooks"></div>
                 <div class="swiper-slide"><img src="./Assets/imagens/Portugol.svg" alt="Capa do Livro Portugol da AluraBooks"></div>
                 <div class="swiper-slide"><img src="./Assets/imagens/Tuning.svg" alt="Capa do Livro Tuning da AluraBooks"></div>
-            </div>
-            <!-- Slides -->
-                
 
-            
-        </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
+            </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
+            <!-- Slides -->             
+        
 
         <div class="card">
             <div class="card__descrição">
@@ -142,9 +142,9 @@
         </div>
         
     </section>
-
+    <!-- Corrossel da seção mais vendidos-->
     <section class="carrossel">
-        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
 
         <!-- Slider main container -->
         <div class="swiper">
@@ -158,15 +158,17 @@
                 <div class="swiper-slide"><img src="./Assets/imagens/Javascript.svg" alt="Capa do Livro Javascript da AluraBooks"></div>
                 <div class="swiper-slide"><img src="./Assets/imagens/Portugol.svg" alt="Capa do Livro Portugol da AluraBooks"></div>
                 <div class="swiper-slide"><img src="./Assets/imagens/Tuning.svg" alt="Capa do Livro Tuning da AluraBooks"></div>
+
+            </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
             </div>
             <!-- Slides -->
                 
 
             
-        </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
+        
 
         <div class="card">
             
@@ -229,15 +231,129 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input class="contato__email" type="email" placeholder="Cadastre seu e-mail">
+        
+        
     </section>
 
     <hr />
 
     <footer class="rodape">
         <h2 class="rodape__titulo">Grupo Alura</h2>
+        <!-- Lista dos produtos de educação-->
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação</li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/Caelum.svg">
+                <a href="#" class="lista-rodape__link">
+                    Caelum
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/CasaDoCodigo.svg">
+                <a href="#" class="lista-rodape__link">
+                    Casa do Cógigo
+                </a>
+            </li>
+        </ul>
+        <!-- Lista dos produtos de educação online -->
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Educação online</li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/Alura.svg">
+                <a href="#" class="lista-rodape__link">
+                    Alura
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/AluraEmpresas.svg">
+                <a href="#" class="lista-rodape__link">
+                    Alura para Empresas
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/AluraLATAM.svg">
+                <a href="#" class="lista-rodape__link">
+                    Alura LATAM
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/AluraStart.svg">
+                <a href="#" class="lista-rodape__link">
+                    Alura Start
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/MusicDot.svg">
+                <a href="#" class="lista-rodape__link">
+                     MusicDot
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/AluraLingua.svg">
+                <a href="#" class="lista-rodape__link">
+                    Alura Língua
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/PM3.svg">
+                <a href="#" class="lista-rodape__link">
+                    PM3
+                </a>
+            </li>
+        </ul>
+        <!-- Lista dos produtos de comunidade -->
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Comunidade</li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/HipstersTech.svg">
+                <a href="#" class="lista-rodape__link">
+                    Hipsters ponto Tech
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/ScubaDev.svg">
+                <a href="#" class="lista-rodape__link">
+                    Scuba Dev
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/LayersTech.svg">
+                <a href="#" class="lista-rodape__link">
+                    Layers ponto Tech
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/LikeABoss.svg">
+                <a href="#" class="lista-rodape__link">
+                    Like a Boss
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/CarreiraSemFronteira.svg">
+                <a href="#" class="lista-rodape__link">
+                    Carreira sem Fronteira
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/HipstersJobs.svg">
+                <a href="#" class="lista-rodape__link">
+                    Hipsters ponto Jobs
+                </a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./Assets/logos/Logos Footer/GUJ.svg">
+                <a href="#" class="lista-rodape__link">
+                    GUJ
+                </a>
+            </li>
+           
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
